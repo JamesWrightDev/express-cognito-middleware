@@ -14,5 +14,13 @@
   "license": "ISC",
   "files": [
     "/dist"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.4"
+  }
 }

@@ -1,1 +1,3 @@
-export { sayHello } from "./foo";
+import { validate } from "./foo";
+
+validate();

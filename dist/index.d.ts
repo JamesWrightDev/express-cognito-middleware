@@ -1,1 +1,1 @@
-export { sayHello } from "./foo";
+export {};

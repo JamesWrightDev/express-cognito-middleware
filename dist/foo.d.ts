@@ -1,1 +1,1 @@
-export declare function sayHello(): void;
+export declare const validate: () => Promise<void>;
