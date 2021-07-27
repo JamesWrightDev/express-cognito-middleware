@@ -1,0 +1,18 @@
+{
+  "name": "cognito-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "types": "dist/index.d.ts",
+  "author": "James Wright",
+  "license": "ISC",
+  "files": [
+    "/dist"
+  ]
+}
