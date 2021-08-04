@@ -1,3 +1,12 @@
-import { validate } from "./foo";
+import { cognitoMiddleware } from "./cognitoMiddleware";
+export { cognitoMiddleware };
 
-validate();
+export interface Config {
+  region: string | undefined;
+  userPoolId: string | undefined;
+}
+
+const config = {
+  region: "eu-west-2",
+  userPoolId: "eu-west-2_0jWTqtygp",
+};
